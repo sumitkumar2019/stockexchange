@@ -42,6 +42,10 @@ Now Run api at [`localhost:3000'].
 npm test
 ```
 
+## Heroku Production Deployment url
+
+https://stockexchanges.herokuapp.com/stocks?country=IN&category=Automobile&baseBid=20
+
 Note: Code is already documented. How-ever End to End Process are documented under doc file:
 End-To-End-Process-Stock Exchange.
 
