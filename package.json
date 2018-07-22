@@ -1,0 +1,32 @@
+{
+  "name": "stockexchange",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "debug": "node debug ./bin/www",
+    "test": "mocha ./test/unit/**/*Test.js"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.0.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "expect": "^23.4.0",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "knex": "^0.15.1",
+    "lodash": "^4.17.10",
+    "log4js": "^3.0.0",
+    "logger": "0.0.1",
+    "mocha": "^5.2.0",
+    "morgan": "~1.9.0",
+    "pg": "^7.4.3",
+    "pug": "2.0.0-beta11",
+    "supertest": "^3.1.0",
+    "testdouble": "^3.8.1",
+    "winston": "^3.0.0"
+  }
+}
