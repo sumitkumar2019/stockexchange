@@ -4,10 +4,10 @@ module.exports = {
     development: {
         client: 'postgresql',
         connection: {
-            host : 'ec2-54-204-18-53.compute-1.amazonaws.com',
-            user : 'caqdvjfhsznbpp',
-            password : 'f52e92bbb9ca7d7ca08a3b93254a38fd29f666defb302a12a629acc0540705d1',
-            database : 'd1psftfsviir4l'
+            host : 'localhost',
+            user : 'postgres',
+            password : 'postgres',
+            database : 'postgres'
         },
         migrations:{
             directory:'../migrations'
@@ -19,7 +19,7 @@ module.exports = {
     production: {
         client: 'postgresql',
         connection: {
-            database: 'postgres://caqdvjfhsznbpp:f52e92bbb9ca7d7ca08a3b93254a38fd29f666defb302a12a629acc0540705d1@ec2-54-204-18-53.compute-1.amazonaws.com:5432/d1psftfsviir4l'
+            database: 'postgres://sivpdezuayldke:527c3588e5caba0b88487a39678cf9ca9dc777cab1d77f901ce3ad3ca65019ad@ec2-174-129-192-200.compute-1.amazonaws.com:5432/dj714rs23jept'
         },
         migrations:{
             directory:'../migrations'
