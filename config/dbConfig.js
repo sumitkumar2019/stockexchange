@@ -5,9 +5,15 @@ module.exports = {
         client: 'postgresql',
         connection: {
             host : 'localhost',
-            user : 'xxxxx',
+            user : 'postgres',
             password : 'xxxxxx',
-            database : 'postgres'
+            database : 'xxxxxx'
+        },
+        migrations:{
+            directory:'../migrations'
+        },
+        seeds:{
+            directory: '../seeds'
         }
     }
 };

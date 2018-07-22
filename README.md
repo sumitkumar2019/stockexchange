@@ -20,6 +20,14 @@
 npm install
 ```
 
+### Install DB
+
+* Run below command to create tables
+ knex --knexfile=./config/dbConfig.js migrate:latest
+
+* Run below command to create rows
+ knex --knexfile=./config/dbConfig.js seed:run
+
 ### Run the Application
 
 ```
